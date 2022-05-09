@@ -1,6 +1,6 @@
 CREATE DATABASE pernstack;
 
-CREATE TABLE todo(
+CREATE TABLE todos(
     todo_id SERIAL PRIMARY KEY,
-    desctiption VARCHAR(255)
+    description VARCHAR(255),
 );
